@@ -1,0 +1,31 @@
+.contenedor{
+    padding: 5px;
+    background-color: aquamarine;
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    grid-template-areas: "contenedor    contenedor"
+                         "nav           nav"
+                         "contenido      ads"
+
+                         "footer         footer";
+}
+.contenedor .header{
+    grid-area: header;
+    background-color: blueviolet;
+}
+.contenedor .nav{
+    grid-area: nav;
+    background-color: aqua;
+}
+.contenedor .contenido{
+    grid-area: contenido;
+    background-color: brown;
+}
+.contenedor .ads{
+    grid-area: ads;
+    background-color: chartreuse;
+}
+.contenedor .footer{
+    grid-area: footer;
+    background-color: darkgreen;
+}
